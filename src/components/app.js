@@ -1,10 +1,9 @@
 import React from 'react';
-import MovieContainer from './movie_container';
+import MoviesContainer from './movies_container';
 
-export default () => {
+export default () => (
     <div className="container">
         <h1 className="text-center">Axios Demo</h1>
-        <MovieContainer/>
+        <MoviesContainer/>
     </div>
-}
-
+)
